@@ -12,12 +12,12 @@ This project is a Java-based GUI application that helps users calculate the nutr
 ## Project Structure
 - **Main Class:** fastFoodMacros.java - Contains the main GUI framework and functionality.
 - **Menu Items:** Each restaurant has its own set of menu items implemented in separate classes (e.g., chikFilAMenuItems, pandaExpressMenuItems, etc.).
-- **CSV Data:** Nutritional information is fetched from CSV files for each restaurant (not included in this repository).
+- **CSV Data:** Nutritional information is fetched from CSV files for each restaurant
 
 ## How to Run
 **Clone the repository:** 
 
-`git clone https://github.com/yourusername/fastfood-macros.git`
+`git clone https://github.com/taehomoo/fastfood-macros.git`
 
 **Compile and run the Java program:**
 
