@@ -10,9 +10,9 @@ This project is a Java-based GUI application that helps users calculate the nutr
 - Provides options to reset selections and recalculate macros.
 
 ## Project Structure
-**Main Class:** fastFoodMacros.java - Contains the main GUI framework and functionality.
-**Menu Items:** Each restaurant has its own set of menu items implemented in separate classes (e.g., chikFilAMenuItems, pandaExpressMenuItems, etc.).
-**CSV Data:** Nutritional information is fetched from CSV files for each restaurant (not included in this repository).
+- **Main Class:** fastFoodMacros.java - Contains the main GUI framework and functionality.
+- **Menu Items:** Each restaurant has its own set of menu items implemented in separate classes (e.g., chikFilAMenuItems, pandaExpressMenuItems, etc.).
+- **CSV Data:** Nutritional information is fetched from CSV files for each restaurant (not included in this repository).
 
 ## How to Run
 **Clone the repository:** 
