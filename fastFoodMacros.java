@@ -34,30 +34,20 @@ public class fastFoodMacros {
         JPanel mainPanel = new JPanel(new CardLayout());
 
         //homePanel holding the navigation buttons to access all the different panels
-        JPanel homePanel = new JPanel(new GridLayout(2, 2, 10, 10));
-
-        int imageSize = 150;
+        JPanel homePanel = new JPanel();
 
         //creating the buttons to navigate to the different panels
-        Image chikImg = Toolkit.getDefaultToolkit().getImage("restaurant-logos/Chik-Fil-A-logo.png");
-        Image resizedChikImg = chikImg.getScaledInstance(imageSize, imageSize, Image.SCALE_SMOOTH);
-        ImageIcon chikIcon = new ImageIcon(resizedChikImg);
-        JButton chikFilAButton = new JButton(chikIcon);
+        JButton chikFilAButton = new JButton("Chik-fil-A");
+        chikFilAButton.setBounds(50, 50, 150, 25);
 
-        Image pandaImg = Toolkit.getDefaultToolkit().getImage("restaurant-logos/Panda-Express-logo.png");
-        Image resizedPandaImg = pandaImg.getScaledInstance(imageSize, imageSize - 40, Image.SCALE_SMOOTH);
-        ImageIcon pandaIcon = new ImageIcon(resizedPandaImg);
-        JButton pandaExpressButton = new JButton(pandaIcon);
+        JButton pandaExpressButton = new JButton("Panda Express");
+        pandaExpressButton.setBounds(50, 50, 150, 25);
 
-        Image tacoBellImg = Toolkit.getDefaultToolkit().getImage("restaurant-logos/Taco-Bell-logo.png");
-        Image resizedTacoBellImg = tacoBellImg.getScaledInstance(imageSize, imageSize, Image.SCALE_SMOOTH);
-        ImageIcon tacoBellIcon = new ImageIcon(resizedTacoBellImg);
-        JButton tacoBellButton = new JButton(tacoBellIcon);
+        JButton tacoBellButton = new JButton("Taco Bell");
+        tacoBellButton.setBounds(50, 50, 150, 25);
 
-        Image mcDonaldsImg = Toolkit.getDefaultToolkit().getImage("restaurant-logos/McDonalds-logo.png");
-        Image resizedMcDonaldsImg = mcDonaldsImg.getScaledInstance(imageSize + 40, imageSize - 10, Image.SCALE_SMOOTH);
-        ImageIcon mcDonaldsIcon = new ImageIcon(resizedMcDonaldsImg);
-        JButton mcDonaldsButton = new JButton(mcDonaldsIcon);
+        JButton mcDonaldsButton = new JButton("McDonalds");
+        mcDonaldsButton.setBounds(50, 50, 150, 25);
 
         //adding the navigation buttons to the home panel
         homePanel.add(chikFilAButton);
