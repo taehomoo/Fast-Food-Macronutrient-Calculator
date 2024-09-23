@@ -12,11 +12,6 @@ import java.awt.event.ActionEvent;
 import java.util.List;
 import java.util.ArrayList;
 
-/*
- * Developed by Andrew Moon
- * Student at Auburn University
- */
-
 public class fastFoodMacros {
     public static void main(String[] args) {
         //List to hold all menu items that have been selected
