@@ -8,12 +8,6 @@ import java.util.List;
 
 import menuitem.MenuItem;
 
-/* self notes:
- * To make it less cluttered, I am creating a csv file for the different menu sections with the menu items
- * Reading in the file line by line, delimited by a colon (:), and from there reading in each value to create a MenuItem
- * passing in the csv filepath as the parameter, and adding all the items that are created to a list, then returning that list to the caller in the main code
- */
-
 public class chikFilAMenuItems {
     public static List<MenuItem> readItemsFromCsv(String filePath) {
         List<MenuItem> menuItemList = new ArrayList<>();
